@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   h2 {
     font-size: 1.5rem;
     margin-right: 20px;
@@ -12,8 +13,8 @@
     height: 50px;
     border-radius: 10px;
     border: 1px solid lightgray;
-    ::placeholder{
-        font-size: 1.2rem;
+    ::placeholder {
+      font-size: 1.2rem;
     }
   }
   button {
@@ -23,6 +24,14 @@
   }
 }
 
-.subscribe{
+.subscribe {
   background-color: lightgray;
+}
+
+@media only screen and (max-width: 320px) {
+  .subscribe-box{
+    h2{
+        display: none;
+    }
+  }
 }
