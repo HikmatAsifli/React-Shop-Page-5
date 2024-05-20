@@ -66,11 +66,13 @@ const Cards = () => {
                 <div className="card-body">
                   <img src={item.image} className="card-img-top" alt="" />
                   <h5 className="card-title">{item.title}</h5>
-                  <p className="card-text">{item.price}</p>
+                  <p className="card-text">{item.price} $</p>
+                  <p className="card-text">{item.description}</p>
+                  <Link className="btn btn-success me-5" to={`/detail/${item._id}`}>detail page</Link>
                   <button
                     className="btn btn-light "
                     onClick={() => {
-                      addToBasket(itemData._id);
+                      addToBasket(item._id);
                     }}
                   >
                     <i className="fa-solid fa-cart-shopping"></i>
