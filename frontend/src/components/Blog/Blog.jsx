@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
-    <div className="container mt-5 blog">
+    <div className="container mt-5 mb-5 blog">
       <div className="row justify-content-center">
         <div className="section-heading">
           <span className="title-2">Latest News</span>

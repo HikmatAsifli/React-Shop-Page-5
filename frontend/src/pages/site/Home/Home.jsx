@@ -7,6 +7,7 @@ import Discover from "../../../components/Discover/Discover";
 import Cards from "../../../components/Cards/Cards";
 import Review from "../../../components/Review/Review";
 import Blog from "../../../components/Blog/Blog";
+import Subscribe from "../../../components/Subscribe/Subscribe";
 
 const Home = () => {
   const { data, setData } = useContext(MainContext);
@@ -20,7 +21,8 @@ const Home = () => {
       <Discover />
       <Cards />
       <Review />
-      <Blog/>
+      <Blog />
+      <Subscribe />
     </>
   );
 };
