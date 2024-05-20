@@ -1,0 +1,31 @@
+.title-2 {
+    font-family: Courgette;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #d61c22;
+}
+.title-3 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.size-3{
+    max-width: 513px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    &:hover{
+        color: #d61c22;
+    }
+}
+.size-2{
+    max-width: 390px !important;
+}
+.story{
+    border-radius: 10px;
+}
