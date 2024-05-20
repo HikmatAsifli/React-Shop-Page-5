@@ -14,7 +14,7 @@ const Review = () => {
     slidesToScroll: 1,
   };
   return (
-    <div className="container review">
+    <div className="container review pb-5">
       <div className="row justify-content-center">
         <div className="section-heading">
           <span className="title-2">Customer Say</span>
